@@ -10,7 +10,11 @@ Credentials stay in env. The enable flag is the feed switch.
 4. Set `LATTICE_ENABLED=1`.
 5. Call `snapshotLattice()` or copy `examples/next-route.ts` to `app/api/lattice/route.ts`.
 
-Osiris (or any Next app): layer off until this returns `connected: true`.
+Osiris (or any Next app): keep the layer hidden until `GET /api/lattice?probe=1` returns `configured: true`. That requires `LATTICE_ENABLED=1` and complete credentials, not merely leftover env.
+
+When connected, `snapshotLattice()` returns GeoJSON **with ontology still on each feature**. That is the whole point. If you strip `platformType` in your route, you are back to untyped dots and this kit is wasted.
+
+## Disconnect
 
 ## Disconnect
 
