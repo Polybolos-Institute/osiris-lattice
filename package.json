@@ -1,0 +1,24 @@
+{
+  "name": "osiris-lattice",
+  "version": "0.1.0",
+  "description": "Generic Anduril Lattice connector for Osiris-style Next.js apps. Independent sample, not an Anduril product.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Polybolos Institute <Contact@Polybolos.org>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Polybolos-Institute/osiris-lattice.git"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "tsx --test tests/*.test.ts",
+    "prove:mock": "tsx scripts/prove-mock.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
