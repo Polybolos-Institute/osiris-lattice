@@ -74,9 +74,12 @@ npm run prove:mock
 
 Live Sandboxes: copy `.env.example`, fill `LATTICE_*`, set `LATTICE_ENABLED=1`. Token names: [anduril-lattice-sandbox-dx](https://github.com/Polybolos-Institute/anduril-lattice-sandbox-dx).
 
+If you want a live Lattice sandbox, join the Anduril Lattice developer program here: [https://www.anduril.com/lattice/lattice-sdk](https://www.anduril.com/lattice/lattice-sdk). This kit does not grant access. The local mock does not require the program.
+
 ## Related
 
 - [Osiris](https://github.com/simplifaisoul/osiris) - optional consumer. This repo is the connector source, not a fork of Osiris.
+- Lattice developer program: [https://www.anduril.com/lattice/lattice-sdk](https://www.anduril.com/lattice/lattice-sdk)
 - [anduril-mock-lattice](https://github.com/Polybolos-Institute/anduril-mock-lattice)
 - [anduril-lattice-sandbox-dx](https://github.com/Polybolos-Institute/anduril-lattice-sandbox-dx)
 - [anduril-lattice-stream-watcher](https://github.com/Polybolos-Institute/anduril-lattice-stream-watcher)

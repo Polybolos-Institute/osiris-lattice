@@ -111,5 +111,6 @@ Osiris plus this kit is how an open OSINT shell becomes a Lattice-capable **onto
 
 - [CONNECT.md](CONNECT.md) - connect / disconnect
 - [ONTOLOGY.md](ONTOLOGY.md) - field table and lookup rule
+- Lattice developer program (join if you want a live sandbox): [https://www.anduril.com/lattice/lattice-sdk](https://www.anduril.com/lattice/lattice-sdk)
 - Upstream connector repo: this file lives in [osiris-lattice](https://github.com/Polybolos-Institute/osiris-lattice)
 - Osiris project: [simplifaisoul/osiris](https://github.com/simplifaisoul/osiris)

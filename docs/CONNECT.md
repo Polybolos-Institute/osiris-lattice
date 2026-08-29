@@ -2,6 +2,8 @@
 
 Credentials stay in env. The enable flag is the feed switch.
 
+If you want a live Anduril Lattice sandbox, join the Lattice developer program here: [https://www.anduril.com/lattice/lattice-sdk](https://www.anduril.com/lattice/lattice-sdk). Mock Lattice on localhost does not require that.
+
 ## Connect
 
 1. Copy `.env.example` to `.env` and fill values, or export them.
@@ -13,8 +15,6 @@ Credentials stay in env. The enable flag is the feed switch.
 Osiris (or any Next app): keep the layer hidden until `GET /api/lattice?probe=1` returns `configured: true`. That requires `LATTICE_ENABLED=1` and complete credentials, not merely leftover env.
 
 When connected, `snapshotLattice()` returns GeoJSON **with ontology still on each feature**. That is the whole point. If you strip `platformType` in your route, you are back to untyped dots and this kit is wasted.
-
-## Disconnect
 
 ## Disconnect
 
